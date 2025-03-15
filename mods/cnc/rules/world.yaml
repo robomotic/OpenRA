@@ -157,6 +157,7 @@ World:
 	HierarchicalPathFinderOverlay:
 	PlayerCommands:
 	HelpCommand:
+	AudioCommands:
 	ScreenShaker:
 	BuildingInfluence:
 	LegacyBridgeLayer:
