@@ -106,11 +106,13 @@ namespace OpenRA.Mods.Common.Commands
 
 			var console = world.WorldActor.Trait<ChatCommands>();
 			var help = world.WorldActor.Trait<HelpCommand>();
+			var voice = world.WorldActor.Trait<AudioCommands>();
 
 			foreach (var command in commandHandlers)
 			{
 				console.RegisterCommand(command.Key, this);
 				help.RegisterHelp(command.Key, command.Value.Description);
+				voice.RegisterVoice(command.Key, command.Value.Description);
 			}
 		}
 

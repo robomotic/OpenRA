@@ -99,6 +99,12 @@ notification-game-unpaused = The game has been un-paused by { $player }.
 ## Server
 notification-game-started = Game started.
 
+## Voice Commands
+notification-voice-command-activated = Voice command recognition activated. Say 'VOX <command>' to execute a command.
+notification-voice-command-deactivated = Voice command recognition deactivated.
+notification-voice-command-recognized = Voice command recognized: { $command }
+notification-voice-command-not-recognized = Voice command not recognized.
+
 ## PlayerMessageTracker
 notification-chat-temp-disabled =
     { $remaining ->
@@ -742,9 +748,14 @@ description-kill-selected-actors = kills selected actors.
 description-dispose-selected-actors = disposes selected actors.
 
 ## HelpCommands
-notification-available-commands = Here are the available commands:
+notification-available-commands = Here are the available ultra gay commands:
 description-no-description = no description available.
 description-help-description = provides useful info about various commands.
+
+## AudioCommands
+notification-available-commands = Here are the available voice commands:
+description-no-description = no description available.
+description-voice-description = voice activation commands.
 
 ## PlayerCommands
 description-pause-description = pause or unpause the game.
